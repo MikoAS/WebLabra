@@ -1,0 +1,60 @@
+body {
+	background-image: url("ravintola.jpg");
+}
+
+header {
+	width: 100%;
+	float: left;
+	padding-left: 30px;
+	background-color: DarkGreen;
+}
+
+section {
+	margin-top: 50px;
+	float: left;
+	margin-left: 150px;
+	margin-bottom: 30px;
+}
+
+footer {
+	width: 100%;
+	float: left;
+	padding-left: 30px;
+	background-color: DarkGreen;
+}
+
+h2 {
+	text-decoration-line: underline;
+}
+
+ul {
+	list-style-type: none;
+}
+
+header, section {
+	font-family: Comic Sans MS;
+}
+
+header, section, footer {
+	color: GhostWhite;
+}
+
+a {
+	color: GhostWhite;
+}
+
+@media screen and (max-width: 992px) {
+	body {
+		background-size: 0 0;
+	}
+	section {
+		margin-left: 65px;
+		color: black;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	section {
+		margin-left: 30px;
+	}
+}
