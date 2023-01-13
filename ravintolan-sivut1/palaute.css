@@ -1,0 +1,43 @@
+
+header {
+	width: 100%;
+	float: left;
+	padding-left: 30px;
+	background-color: DarkGreen;
+}
+
+section {
+	margin-top: 50px;
+	float: left;
+	margin-left: 150px;
+	margin-bottom: 30px;
+}
+
+footer {
+	width: 100%;
+	float: left;
+	padding-left: 30px;
+	background-color: DarkGreen;
+}
+
+header, footer {
+	color: GhostWhite;
+}
+
+header, section {
+	font-family: Comic Sans MS;
+}
+
+textarea {
+	resize: none;
+}
+
+input[type=range] {
+	width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+	section {
+		margin-left: 65px;
+	}
+}

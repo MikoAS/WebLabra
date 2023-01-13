@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+	<meta charset="UTF-8">
+	<title>Asiakaspalautelomake</title>
+	<link rel="stylesheet" href="palaute.css">
+</head>
+<body>
+
+<header>
+	<h1>Ravintola Lapintaika</h1>
+</header>
+
+<section>
+	<form>
+		<label for="date">Milloin kävit ravintolassa?</label><br>
+		<input type="date" id="date" name="date"><br><br>
+		<label for="wait">Kuinka pitkään ruokaa joutui odottamaan? (min)</label><br>
+		<input type="number" id="wait" name="time" min="0" max="99"><br><br>
+		<label for="taste">Maistuiko ruoka hyvältä?</label><br>
+		<textarea name="taste" rows="3" cols="70"></textarea><br><br>
+		<label for="appearance">Oliko ruoan ulkonäkö hyvä?</label><br>
+		<textarea name="appearance" rows="3" cols="70"></textarea><br><br>
+		<label for="price">Oliko annos hintansa arvoinen?</label><br>
+		<textarea name="price" rows="3" cols="70"></textarea><br><br>
+		<label for="service">Palvelun taso</label><br>
+		<input type="range" id="service" min="1" max="10"><br><br>
+		<label for="free">Vapaa palaute</label><br>
+		<textarea name="free" rows="7" cols="70"></textarea><br><br>
+	</form>
+</section>
+
+<footer>
+	<h2>Yhteystiedot ja aukioloajat:</h2>
+	<ul>
+		<li>Ravintola Lapintaika, Ravintolakatu 2, 98765 LAPINMAA</li>
+		<li>Puh. (012) 345 6789</li>
+		<li>Sähköposti: varaukset@jokuposti.net</li><br>
+		<li>Aukioloajat: ma - pe, 10:30 - 15:00</li>
+	</ul>
+</footer>
+
+</body>
+</html>
